@@ -1,0 +1,17 @@
+{
+  "name": "Super-search-string",
+  "version": "1.0.0",
+  "description": "Simple super search string",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^2.0.0",
+    "webpack-dev-server": "^2.0.0"
+  },
+  "dependencies": {
+
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Super search</title>
+  </head>
+  <body class="page">
+    <div class="search-wrapper">
+      <form class="search-box search-box--narrow js-form" action="http://super-analytics.com" method="post" id="search-form-1" enctype="multipart/form-data">
+        <input class="search-box__input js-input-search" type="search" id="search-string-1" name="search" placeholder="Input any text...">
+        <input class="search-box__btn btn js-btn-search" type="submit" value="Search" disabled>
+        <button class="search-box__clear js-btn-reset is-hidden" type="button" title="Clear">Clear form</button>
+        <div class="search-box__hints hints-box js-hints-box is-hidden">
+          <ul class="hints-box__list">
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="phrase" href="#">1</a><span class="hints-box__description js-hint-text"> in <span>Phrase Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="domain" href="#">2</a><span class="hints-box__description js-hint-text"> in <span>Domain Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="url" href="#">3</a><span class="hints-box__description js-hint-text"> in <span>Url Overview</span></span>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div class="search-wrapper">
+      <form class="search-box search-box--normal js-form" action="http://super-analytics.com" method="post" id="search-form-2" enctype="multipart/form-data">
+        <input class="search-box__input js-input-search" type="search" id="search-string-2" name="search" placeholder="Input any text...">
+        <input class="search-box__btn btn js-btn-search" type="submit" value="Search" disabled>
+        <button class="search-box__clear js-btn-reset is-hidden" type="button" title="Clear">Clear form</button>
+        <div class="search-box__hints hints-box js-hints-box is-hidden">
+          <ul class="hints-box__list">
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="phrase" href="#">1</a><span class="hints-box__description js-hint-text"> in <span>Phrase Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="domain" href="#">2</a><span class="hints-box__description js-hint-text"> in <span>Domain Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="url" href="#">3</a><span class="hints-box__description js-hint-text"> in <span>Url Overview</span></span>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <div class="search-wrapper">
+      <form class="search-box search-box--wide js-form" action="http://super-analytics.com" method="post" id="search-form-3" enctype="multipart/form-data">
+        <input class="search-box__input js-input-search" type="search" id="search-string-3" name="search" placeholder="Input any text...">
+        <input class="search-box__btn btn js-btn-search" type="submit" value="Search" disabled>
+        <button class="search-box__clear js-btn-reset is-hidden" type="button" title="Clear">Clear form</button>
+        <div class="search-box__hints hints-box js-hints-box is-hidden">
+          <ul class="hints-box__list">
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="phrase" href="#">1</a><span class="hints-box__description js-hint-text"> in <span>Phrase Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="domain" href="#">2</a><span class="hints-box__description js-hint-text"> in <span>Domain Overview</span></span>
+            </li>
+            <li class="hints-box__item">
+              <a class="hints-box__link js-hint-link" data-type="url" href="#">3</a><span class="hints-box__description js-hint-text"> in <span>Url Overview</span></span>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
