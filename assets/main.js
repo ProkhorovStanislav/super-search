@@ -88,6 +88,7 @@ var utils = __webpack_require__(2);
   //get all page forms and set handlers
   searchForms.forEach(function (item) {
     var form = {
+      id: item.id,
       search: item.querySelector('.js-input-search'),
       btn: item.querySelector('.js-btn-search'),
       resetBtn: item.querySelector('.js-btn-reset'),
